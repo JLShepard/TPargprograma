@@ -85,10 +85,10 @@ img {
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #333
-    font-size: 1.2rem;
+    /*font-size: 1.2rem;
     line-height: 1.6em;
     margin: 0;
-    padding-top: 12rem;
+    padding-top: 12rem;*/
 }
 
 .header {
@@ -109,7 +109,7 @@ body {
 .logo-nav-container {
     display: flex;
     justify-content: space-between;
-    align-items: : center;
+    align-items:center;
 }
 
 h1 {
@@ -140,7 +140,7 @@ h1 {
             border-radius: 5px;
         }
             .navbar ul li a:hover {
-                background: grey;
+                background: black;
             }
 
 .logo {
@@ -154,4 +154,3 @@ h1 {
 .top-image {
     width:100%;
 }
-
