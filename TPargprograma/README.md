@@ -1,2 +1,0 @@
-# TPargprograma
-trabajo practico integrador
