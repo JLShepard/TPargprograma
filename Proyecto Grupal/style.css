@@ -2,7 +2,7 @@
 .header {
     background-color:whitesmoke;
     color: coral;
-    padding:2rem 0;
+    padding:0rem 0;
     position:fixed;
     left:0;
     top:0;
@@ -46,8 +46,9 @@ img {
 }
 
 #disney {
-    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: larger;
+    color: #fff;
     background-image: url("disney-land-10.jpg");
     width: 300px;
     height: 400px;
@@ -56,8 +57,9 @@ img {
 }
 
 #brasil {
-    color: #333;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: larger;
+    color: #fff;
     background-image: url("burano.jpg");
     width: 300px;
     height: 400px;
@@ -66,8 +68,9 @@ img {
 }
 
 #paris {
-    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: larger;
+    color: #fff;
     background-image: url("calle.jpg");
     width: 300px;
     height: 400px;
@@ -76,8 +79,9 @@ img {
 }
 
 #oriente {
-    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: larger;
+    color: #fff;
     background-image: url("lugar-turistico.jpg");
     width: 300px;
     height: 400px;
@@ -86,14 +90,20 @@ img {
 }
 
 h4 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
 }
 
 .viajes {
-    margin-left:  70px;
+    margin-left: 70px;
     margin-top: 80px;
-    color: white;
+    padding-top: 5px;
+    border-radius: 5px;
     background-color: #0077B5;
+}
+
+h6 {
+    color: #fff;
 }
 
 body {
@@ -122,7 +132,7 @@ body {
 }
     .menu ul li {
         display: inline-block;
-    }
+}
         .menu ul li a {
             display: block;
             padding: 0.5rem 1rem;

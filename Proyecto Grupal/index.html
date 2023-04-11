@@ -10,6 +10,8 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="style.css">
     <title>Poyecto Grupal</title>
 </head>
@@ -61,60 +63,69 @@
                             <h4> <strong>Viaja a Disney</strong> </h4> <br>
                             <li><strong>10 dias </strong> </li>
                             <li> <strong> 8 noches </strong> </li>
-                            <li> <strong>Dos parques de diversion incluidos a elección </strong></li>
+                            <li> <strong>Tres parques de diversion</strong></li>
                             <li> <strong>Hotel 3 estrellas</strong></li>
-                            <button class="viajes">Consultá</button>
+                            <button class="viajes"> <a href="#formu">
+                                    <h6> Consultá</h6>
+                                </a> </button>
                         </div>
                         <div id="brasil">
                             <h4> <strong>Viaja a Brasil</strong> </h4> <br>
                             <li><strong>10 dias </strong> </li>
                             <li> <strong> 8 noches </strong> </li>
-                            <li> <strong>Dos parques de diversion incluidos a eleeción </strong></li>
+                            <li> <strong>Buzios + Rio </strong></li>
                             <li> <strong>Hotel 3 estrellas</strong></li>
-                            <button class="viajes">Consultá</button>
+                            <button class="viajes"><a href="#formu">
+                                    <h6>Consultá</h6>
+                                </a> </button>
                         </div>
                         <div id="paris">
                             <h4> <strong>Viaja a Paris</strong> </h4> <br>
                             <li><strong>10 dias </strong> </li>
                             <li> <strong> 8 noches </strong> </li>
-                            <li> <strong>Dos parques de diversion incluidos a eleeción </strong></li>
+                            <li> <strong>Visitas Guiadas</strong></li>
                             <li> <strong>Hotel 3 estrellas</strong></li>
-                            <button class="viajes">Consultá</button>
+                            <button class="viajes"> <a href="#formu">
+                                    <h6> Consultá </h6>
+                                </a> </button>
                         </div>
                         <div id="oriente">
                             <h4> <strong>Viaja a Oriente</strong> </h4> <br>
                             <li><strong>10 dias </strong> </li>
                             <li> <strong> 8 noches </strong> </li>
-                            <li> <strong>Dos parques de diversion incluidos a eleeción </strong></li>
+                            <li> <strong>Conocé el Caucaso</strong></li>
                             <li> <strong>Hotel 3 estrellas</strong></li>
-                            <button class="viajes">Consultá</button>
+                            <button class="viajes"> <a href="#formu">
+                                    <h6>Consultá </h6>
+                                </a> </button>
                         </div>
                     </div>
                 </nav>
         </section>
+        <section>
+            <div class="formulario" id="con">
+                <header class="form-header" id="formu">
+                    <span>
+                        <i class="fa fa-paper-plane"></i>
+                    </span>
+                </header>
+                <form action="" class="form-cont">
+                    <label for="nombres">Nombre y Apellido:</label>
+                    <input type="text" name="nombres" id="nombres">
 
-        <div class="formulario" id="con">
-            <header class="form-header">
-                <span>
-                    <i class="fa fa-paper-plane"></i>
-                </span>
-            </header>
-            <form action="" class="form-cont">
-                <label for="nombres">Nombre y Apellido:</label>
-                <input type="text" name="nombres" id="nombres">
+                    <label for="correo">Correo:</label>
+                    <input type="text" name="correo" id="correo">
 
-                <label for="correo">Correo:</label>
-                <input type="text" name="correo" id="correo">
+                    <label for="celular">Celular:</label>
+                    <input type="text" name="celular" id="celular">
 
-                <label for="celular">Celular:</label>
-                <input type="text" name="celular" id="celular">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea name="mensaje" id="mensaje"></textarea>
+                    <input type="submit" value="Enviar">
 
-                <label for="mensaje">Mensaje:</label>
-                <textarea name="mensaje" id="mensaje"></textarea>
-                <input type="submit" value="Enviar">
-
-            </form>
-        </div>
+                </form>
+            </div>
+        </section>
     </main>
     <footer class="pie">
         <div class="primera-linea-pie">
