@@ -44,8 +44,10 @@ img {
     margin-left: 30px;
     
 }
+
 #disney {
-    color: aliceblue;
+    color: black;
+    font-size: larger;
     background-image: url("disney-land-10.jpg");
     width: 300px;
     height: 400px;
@@ -54,7 +56,8 @@ img {
 }
 
 #brasil {
-    color: aliceblue;
+    color: #333;
+    font-size: larger;
     background-image: url("burano.jpg");
     width: 300px;
     height: 400px;
@@ -64,6 +67,7 @@ img {
 
 #paris {
     color: aliceblue;
+    font-size: larger;
     background-image: url("calle.jpg");
     width: 300px;
     height: 400px;
@@ -73,11 +77,23 @@ img {
 
 #oriente {
     color: aliceblue;
+    font-size: larger;
     background-image: url("lugar-turistico.jpg");
     width: 300px;
     height: 400px;
     padding: 20px;
     margin-right: 30px;
+}
+
+h4 {
+    text-align: center;
+}
+
+.viajes {
+    margin-left:  70px;
+    margin-top: 80px;
+    color: white;
+    background-color: #0077B5;
 }
 
 body {
