@@ -299,3 +299,24 @@ input[type="submit"] {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 10px;
  }
+
+ .titu-nos {
+    display: flex;
+    justify-content: center;
+ }
+
+ .titu-ente {
+    display: flex;
+    justify-content: center;
+ }
+
+ .opciones {
+    display:inline-block;
+    color: coral;
+    padding:10px 30px;
+    font-size: larger;
+    text-decoration: none;
+ }
+    .opciones:hover {
+        background: grey;
+    }
