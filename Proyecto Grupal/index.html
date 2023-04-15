@@ -18,9 +18,17 @@
 
 <body>
     <header class="header">
-        <div class="logo-nav-container">
-            <div class="logo">
-                <img src="./Logo RZ.jpeg" alt="img" class="logo-alto">
+            <div class="logo-nav-container">
+                <div class="logo">
+                    <img src="./Logo RZ.jpeg" alt="img" class="logo-alto">
+                </div>
+                <div class="form-login">
+                    <h3>Login</h3>
+                    <input class="usu-con" type="text" name="usuario" value="" placeholder="Usuario">
+                    <input class="usu-con" type="password" name="contrasenia" value="" placeholder="Contraseña">
+                    <input class="btn" type="sub" name="usuario" value="Ingresar">
+                    <p><a href="#">¿Olvidaste tu contraseña?</a></p>
+                </div>
             </div>
             <div class="navbar">
                 <ul class="menu">
@@ -30,7 +38,6 @@
                     <il><a href="#con" class="opciones">Contacto</a></il>
                 </ul>
             </div>
-        </div>
     </header>
     <img src="./imgbody.jpeg" alt="Top Image" class="top-image">
     <main class="main">
@@ -55,8 +62,8 @@
         <br><br><br>
         <section>
             <nav>
-                <div class="titu-ente"><h3 class="animate__animated animate__tada animate__infinite animate__repeat-30" id="paq">Enterate de
-                    nuestros viajes todo incluido</h3>
+                <div class="titu-ente"><h2 class="animate__animated animate__tada animate__infinite animate__repeat-30" id="paq">Enterate de
+                    nuestros viajes todo incluido</h2>
                 </div>
                 <nav>
                     <div class="cajas">
@@ -104,32 +111,44 @@
                 </nav>
         </section>
         <section>
-            <div class="formulario" id="con">
-                <header class="form-header" id="formu">
-                    <span>
-                        <i class="fa fa-paper-plane"></i>
-                    </span>
-                </header>
-                <form action="" class="form-cont">
-                    <label for="nombres">Nombre y Apellido:</label>
-                    <input type="text" name="nombres" id="nombres">
+            <div class="formap">
+                <div class="formulario" id="con">
+                    <header class="form-header" id="formu">
+                        <span>
+                            <i class="fa fa-paper-plane"></i>
+                        </span>
+                    </header>
+                    <form action="" class="form-cont">
+                        <label for="nombres">Nombre y Apellido:</label>
+                        <input type="text" name="nombres" id="nombres">
 
-                    <label for="correo">Correo:</label>
-                    <input type="text" name="correo" id="correo">
+                        <label for="correo">Correo:</label>
+                        <input type="text" name="correo" id="correo">
 
-                    <label for="celular">Celular:</label>
-                    <input type="text" name="celular" id="celular">
+                        <label for="celular">Celular:</label>
+                        <input type="text" name="celular" id="celular">
 
-                    <label for="mensaje">Mensaje:</label>
-                    <textarea name="mensaje" id="mensaje"></textarea>
-                    <input type="submit" value="Enviar">
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea name="mensaje" id="mensaje"></textarea>
+                        <input type="submit" value="Enviar">
 
-                </form>
+                    </form>
+                </div>
+                <div class="mapa">
+                    <header class="form-header" id="formu">
+                        <span>
+                            <h4><i class="fa fa-map-marker"> Sucursal Central</i></h4>
+                            <p class="par-map">Av. Rivadavia 10387, C.P. (1408), CABA.Teléfono: (011) 15-5574-8786</p>
+                            <p class="par-map">Martes y Jueves de 10 a 12 hs</p>
+                        </span>
+                    </header>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d210146.53162122847!2d-58.710610393835466!3d-34.61580296435944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc84b5e94edbd%3A0x9cdefe617b84b690!2sRuta%200!5e0!3m2!1ses!2sar!4v1681527084926!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
             </div>
         </section>
-        <section>
+        <!--<section>
             <embed src="" type="pdf">
-        </section>
+        </section>-->
     </main>
     <footer class="pie">
         <div class="primera-linea-pie">
@@ -144,7 +163,7 @@
                 </ul>
             </div>
         </div>
-        <br>
+        
         <div class="copyright">
             <p>&copy; <b>2023 - Página diseñada por @Grupo12 - Todos los derechos reservados.</b></p>
         </div>
@@ -152,10 +171,12 @@
             <ul class="contenedor-final">
                 <li class="linea"><a href="#" style="text-decoration:none">Aviso Legal</a></li>
                 <li class="linea"><a href="#">Política de privacidad</a></li>
-                <li class="linea"><a href="#">Términos y Condiciones</a></li>
+                <li class="linea"><a href="./CONDICIONES-GENERALES-2021.pdf" target="_blank">Términos y Condiciones</a></li>
             </ul>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="./app.js" type="text/javascript"></script>
 </body>
 
 </html>

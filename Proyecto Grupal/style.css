@@ -7,22 +7,23 @@
     left:0;
     top:0;
     right:0;
+    height:210px;
 }
     .header a {
         color:burlywood;
         text-decoration: none;
     }
 
-/*.logo-nav-container {
+.logo-nav-container {
         display: flex;
         justify-content: space-between;
-        align-items:center;
-    }*/
+    }
     
 .logo-alto {
     width: 150px;
     height:150px;
     align-items: left;
+    border-radius: 20%;
 }
     
 .top-image {
@@ -143,21 +144,76 @@ body {
                 background: black;
             }
 
-.logo {
-    align-self: center;
+
+
+.form-login {
+    width: 400px;
+    height: 200px;
+    background: whitesmoke;
+    margin:auto;
+    margin-top: 5px;
+    padding: 20px 30px;
+    color:coral;
+    position:absolute;
+    right:5px;
+
 }
+    .form-login p {
+        height: 30px;
+        text-align: center;
+        font-size: 14px;
+        text-decoration: none;
+    }
+    .form-login a {
+        text-decoration: underline;
+    }
+
+h3 {
+    margin:0;
+    text-align: center;
+    height: 40px;
+    margin-bottom: 0;
+    border-bottom: 1px solid;
+    font-size: 15px;
+}
+
+.usu-con {
+    width: 100%;
+    border: 1px solid coral;
+    margin-bottom: 10px;
+    padding: 1px 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.btn {
+    width: 100%;
+    height: 25px;
+    background: coral;
+    border: none;
+    color: white;
+    margin-bottom: 16px;
+}
+
+
 
 .main {
     padding-top: 5rem;
 }
 
-h2, h3 {
+h2 {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     font-size: 250%;
     color:#0077B5
 }
- /*inicio formulario de contacto*/
+
+/*inicio formulario de contacto*/
+
+ .formap {
+    display:flex;
+    justify-content: space-between;
+ }
 
 .formulario {
     background-color: #fff;
@@ -176,7 +232,7 @@ h2, h3 {
     color: white;
 }
 span {
-    font-size: 50px;
+    font-size: 70px;
     display:block;
     text-align: center;
     padding:2.5rem;
@@ -220,15 +276,23 @@ input[type="submit"] {
     cursor:pointer;
 }
 
-
-
+ .par-map {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+    color: white;
+ }
 
 
 /*inicio el footer*/
 
+/*.pie {
+    height:min-content;
+}
+*/
 .logo-bajo {
     width: 150px;
     height:150px;
+    border-radius: 20%;
 }
 
 .btm-img {
@@ -280,7 +344,7 @@ input[type="submit"] {
 }
 
 .copyright {
-    padding: 1rem 0;
+    padding:0;
     text-align: center ;
     margin-top: 1rem;
 }
