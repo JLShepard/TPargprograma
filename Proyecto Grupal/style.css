@@ -43,7 +43,7 @@ img {
     flex-direction: row;
     padding: 60px;
     margin-left: 30px;
-    
+    justify-content: space-around;
 }
 
 #disney {
@@ -212,7 +212,7 @@ h2 {
 
  .formap {
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
  }
 
 .formulario {
