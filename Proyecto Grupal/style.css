@@ -212,12 +212,12 @@ h2 {
 
  .formap {
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
  }
 
 .formulario {
     background-color: #fff;
-    width: 600px;
+    width: 850px;
     position:initial;
     top: 25%;
     left: 25%;
@@ -281,7 +281,23 @@ input[type="submit"] {
     font-size: small;
     color: white;
  }
-
+ 
+form {
+    margin-bottom: 20px;
+  }
+  
+  #step-2 {
+    display: none;
+  }
+  
+  #step-3 {
+    display: none;
+  }
+  
+  #summary {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
 
 /*inicio el footer*/
 
