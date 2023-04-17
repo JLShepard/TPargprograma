@@ -61,7 +61,7 @@ img {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: larger;
     color: #fff;
-    background-image: url("Brasilpost.png");
+    background-image: url("burano.jpg");
     width: 300px;
     height: 400px;
     padding: 20px;
@@ -72,7 +72,7 @@ img {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: larger;
     color: #fff;
-    background-image: url("istockphoto.jpg");
+    background-image: url("calle.jpg");
     width: 300px;
     height: 400px;
     padding: 20px;
@@ -212,12 +212,12 @@ h2 {
 
  .formap {
     display:flex;
-    justify-content: space-around;
+    justify-content: space-between;
  }
 
 .formulario {
     background-color: #fff;
-    width: 850px;
+    width: 600px;
     position:initial;
     top: 25%;
     left: 25%;
@@ -281,23 +281,7 @@ input[type="submit"] {
     font-size: small;
     color: white;
  }
- 
-form {
-    margin-bottom: 20px;
-  }
-  
-  #step-2 {
-    display: none;
-  }
-  
-  #step-3 {
-    display: none;
-  }
-  
-  #summary {
-    border: 1px solid #ccc;
-    padding: 10px;
-  }
+
 
 /*inicio el footer*/
 
