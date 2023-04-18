@@ -38,6 +38,13 @@ img {
     margin-left: 500px;
 }
 
+.par-nos {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+
+
 .cajas {
     display: flex;
     flex-direction: row;
